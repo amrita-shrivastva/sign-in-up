@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+}
+
+body{
+    background-color: rgb(255, 0, 85);
+}
+
+.box{
+    margin: 300px;
+    position: relative;
+}
+
+.innerbox{
+    width: 400px;
+    height: 350px;
+    background-color: white;
+    padding: 20px 10px;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+h1{
+    padding-left: 10px;
+}
+
+input{
+    margin: 15px 10px;
+    padding: 8px 5px;
+    /* width: 350px; */
+}
+
+input[type=submit], input[type=button]{
+    margin-left: 100px;
+    width: 200px;
+    height: 40px;
+    background-color: rgb(255, 0, 85);
+    color: white;
+    font-weight: bold;
+    border: none;
+}
